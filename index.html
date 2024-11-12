@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Traductor</title>
+    <title>Traductor Java a JavaScript</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,6 +13,11 @@
         <button id="translateButton">Traducir</button>
         <textarea id="jsOutput" placeholder="Resultado en JavaScript..." readonly></textarea>
     </div>
+    
+    <script src="lexer.js"></script>
+    <script src="parser.js"></script>
+    <script src="semantic.js"></script>
+    <script src="codeGenerator.js"></script>
     <script src="translator.js"></script>
 </body>
 </html>
